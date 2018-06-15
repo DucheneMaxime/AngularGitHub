@@ -1,0 +1,22 @@
+<h3 class="text-center">
+  <strong>Homepage</strong>
+</h3>
+
+<br />
+
+<div class="row">
+  <div class="col-sm-offset-2 col-sm-2">
+    <label for="login">Login :</label>
+  </div>
+  <div class="col-sm-4">
+    <input #login type="text" class="form-control" id="login" placeholder="Enter your login..." />
+  </div>
+</div>
+
+<br />
+
+<div class="row">
+  <div class="col-sm-offset-7">
+    <button type="button" class="btn btn-info" (click)="checkLogin(login.value)">Check</button>
+  </div>
+</div>
